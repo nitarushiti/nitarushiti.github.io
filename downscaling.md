@@ -1,16 +1,5 @@
 ## Statistical Climate Downscaling of Monthly Air Temperature in Greenwood, Nova Scotia
 
-### Skills Demonstrated
-
-<span class="badge">R</span>
-<span class="badge">Climate Data</span>
-<span class="badge">NetCDF</span>
-<span class="badge">ERA5</span>
-<span class="badge">Statistical Downscaling</span>
-<span class="badge">Linear Regression</span>
-<span class="badge">Model Validation</span>
-<span class="badge">Data Visualization</span>
-
 ### Project description 
 Climate models and global reanalysis datasets provide valuable information for understanding historical and future climate conditions; however, their spatial resolution is often too coarse for local-scale applications. Statistical downscaling provides a computationally efficient method for relating large-scale climate variables to local weather observations, allowing coarse-resolution climate data to be adapted for site-specific analyses. This project developed a statistical downscaling model to predict seasonal air temperatures in Greenwood, Nova Scotia using ERA5 reanalysis data and historical weather station observations. A multiple linear regression model was trained using monthly observations from 1981–2010 and evaluated using both leave-one-out cross-validation and an independent holdout dataset (2011–2018) to assess its forecasting capability.
 
