@@ -9,7 +9,7 @@ The company currently offers flexible pricing plans with single-ride passes, ful
 ### Methodology
 Data from 2019–2020 was cleaned and standardized to ensure consistent analysis. Date and time fields were converted to datetime format for further calculations. Ride duration was calculated o compare average trip lengths between members and casual riders. A new column was created to store day of the week for each trip to examine weekly trip patterns between the two groups. 
 
-## Sample code 
+## Sample Code 
 
 ```python
 Create new column to store ride length data
