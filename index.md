@@ -4,7 +4,7 @@
 
 ### Projects 
 
-[Urban Heat Island Analysis of Kitchener, Ontario](/sample_page)
+[Urban Heat Island Analysis of Kitchener, Ontario](/hotspots)
 <img src="images/land_cover_hotspots.png?raw=true"/>
 
 ---
