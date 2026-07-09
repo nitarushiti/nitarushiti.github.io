@@ -16,7 +16,7 @@
 <div class="project-card">
   <img src="images/Surface_temp.png" alt="Urban Heat Island Analysis">
   <h3>Urban Heat Island Analysis — Kitchener, Ontario</h3>
-  <p>Mapped land surface temperature and urban heat hotspots using Landsat imagery and ArcGIS Pro. The project compares hotspots with land cover to identify areas where impervious surfaces and low tree canopy contribute to elevated surface temperatures.</p>
+  <p>Mapped land surface temperature and urban heat hotspots using Landsat imagery and ArcGIS Pro. The project compares hotspots with land cover to identify areas where that contribute to elevated surface temperatures.</p>
   <p>
     <span class="badge">ArcGIS Pro</span>
     <span class="badge">Landsat</span>
