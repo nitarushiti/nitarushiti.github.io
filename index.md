@@ -8,8 +8,8 @@
 <img src="images/land_cover_hotspots.png?raw=true"/>
 
 ---
-[Cyclistic Bike Share Case Study](/sample_page)
-<img src="images/land_cover_hotspots.png?raw=true"/>
+[Cyclistic Bike Share Case Study](/cyclistic_casestudy)
+<img src="images/p2_weeklyrides.png?raw=true"/>
 
 [Project 2 Title](/pdf/sample_presentation.pdf)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
