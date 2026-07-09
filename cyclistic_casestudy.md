@@ -9,18 +9,23 @@ The company currently offers flexible pricing plans with single-ride passes, ful
 ### Methodology
 Data from 2019–2020 was cleaned and standardized to ensure consistent analysis. Date and time fields were converted to datetime format for further calculations. Ride duration was calculated o compare average trip lengths between members and casual riders. A new column was created to store day of the week for each trip to examine weekly trip patterns between the two groups. 
 
-```**Create new column to store ride length data**
+```python
+Create new column to store ride length data
 rides_total[["ride_length"]]= np.nan
-**Calculate ride length based on start and end times for each ride**
+
+Calculate ride length based on start and end times for each ride
 rides_total['ride_length'] = (rides_total.end_time - rides_total.start_time) / pd.Timedelta(seconds=1)
 rides_total['ride_length'] = (rides_total['ride_length'] / 60).round(2)
-**Create new column to store day of the week**
+
+Create new column to store day of the week
 rides_total["day_of_week"] = np.nan
 rides_total["day_of_week"] = rides_total["end_time"].dt.day_name()
-**Comparing weekly ridership data by user type**
+
+Comparing weekly ridership data by user type
 weekly_count = rides_total.groupby(['usertype', 'day_of_week']).agg(count_rides=('ride_length', 'count'))
 weekly_count  = weekly_count.reset_index()
-**Visualizing weekly patterns** 
+
+Visualizing weekly patterns 
 user_plot2 = sns.barplot(x="day_of_week",
            y="count_rides",
            hue="usertype", palette = 'Purples',
