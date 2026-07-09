@@ -99,6 +99,73 @@ The statistical downscaling model produced varying levels of performance across 
 
 This project demonstrates the complete workflow required to build and evaluate a statistical climate downscaling model using historical climate observations and ERA5 reanalysis data. Although the model improved upon the original ERA5 temperatures according to the Skill Score, the relatively weak overall correlation indicates that a simple linear regression model is insufficient for accurately representing all aspects of Greenwood's seasonal climate. Local topography, hydrological influences, and other atmospheric processes likely contribute to variability that is not fully captured by a single predictor variable.
 
+<h2>Training Results (1981–2010)</h2>
+
+<div class="gallery">
+
+<div class="gallery-item">
+<a href="images/Mar_temps81-10.jpeg">
+<img src="images/Mar_temps81-10.jpeg">
+</a>
+<p><strong>Figure 1.</strong> March</p>
+</div>
+
+<div class="gallery-item">
+<a href="images/June_temps81-10.jpeg">
+<img src="images/June_temps81-10.jpeg">
+</a>
+<p><strong>Figure 2.</strong> June</p>
+</div>
+
+<div class="gallery-item">
+<a href="images/Sep_temps81-10.jpeg">
+<img src="images/Sep_temps81-10.jpeg">
+</a>
+<p><strong>Figure 3.</strong> September</p>
+</div>
+
+<div class="gallery-item">
+<a href="images/Dec_temps81-10.jpeg">
+<img src="images/Dec_temps81-10.jpeg">
+</a>
+<p><strong>Figure 4.</strong> December</p>
+</div>
+
+</div>
+
+<h2>Forecast Validation (2011–2017)</h2>
+
+<div class="gallery">
+
+<div class="gallery-item">
+<a href="images/Mar_temps2011-17.jpeg">
+<img src="images/Mar_temps2011-17.jpeg">
+</a>
+<p><strong>Figure 5.</strong> March</p>
+</div>
+
+<div class="gallery-item">
+<a href="images/June_temps2011-17.jpeg">
+<img src="images/June_temps2011-17.jpeg">
+</a>
+<p><strong>Figure 6.</strong> June</p>
+</div>
+
+<div class="gallery-item">
+<a href="images/Sep_temps2011-17.jpeg">
+<img src="images/Sep_temps2011-17.jpeg">
+</a>
+<p><strong>Figure 7.</strong> September</p>
+</div>
+
+<div class="gallery-item">
+<a href="images/Dec_temps2011-17.jpeg">
+<img src="images/Dec_temps2011-17.jpeg">
+</a>
+<p><strong>Figure 8.</strong> December</p>
+</div>
+
+</div>
 ### Conclusion
 This project demonstrated the application of statistical downscaling to estimate seasonal air temperatures in Greenwood, Nova Scotia using ERA5 reanalysis data and historical weather station observations. A multiple linear regression model was successfully developed, calibrated, and validated using both leave-one-out cross-validation and an independent holdout dataset. While the model improved upon the original ERA5 dataset according to the Skill Score, performance varied by season and highlighted the limitations of simple linear regression for representing complex local climate processes. Overall, the project provided practical experience in climate data processing, statistical modeling, and model evaluation while illustrating both the potential and limitations of statistical downscaling for local climate prediction.
 
