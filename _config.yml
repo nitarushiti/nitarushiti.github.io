@@ -3,8 +3,6 @@ logo: /images/profile.jpg # your photo (or logo) here
 description: > # your text below (remove <br> elements if you don't need line breaks)
   Environmental Science graduate with experience in GIS, remote sensing, spatial analysis, and data analytics. I enjoy using data to solve environmental and business problems through mapping, visualization, and thoughtful analysis. This portfolio showcases projects that combine technical skills with practical decision-making.
   <br><br>
-  Second description 
-  <br><br>
   <a href="https://www.linkedin.com/in/arbanita-rushiti/">View My LinkedIn Profile</a> 
   
 remote_theme: pages-themes/minimal@v0.2.0
