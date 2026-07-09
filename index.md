@@ -31,8 +31,8 @@
   <h3>Cyclistic Bike Share Analysis</h3>
   <p>Analyzed bike-share usage patterns to compare casual riders and annual members, using data cleaning, visualization, and business-focused recommendations.</p>
   <p>
-    <span class="badge">Python</span>
     <span class="badge">Data Analysis</span>
+    <span class="badge">Python</span>
     <span class="badge">Spreadsheets</span>
     <span class="badge">Data Visualization</span>
   </p>
