@@ -62,10 +62,12 @@ Figure 2 illustrates the spatial distribution of land surface temperatures acros
 <img src="images/Surface_temp.png?raw=true"/> 
 
 *Figure 2. Land surface temperatures across the City of Kitchener on July 7, 2025 (USGS EarthExplorer).*
+
 Figure 3a identifies areas classified as high and very high temperature hotspots using a threshold based on the mean land surface temperature plus one standard deviation. These hotspot polygons represent locations where surface temperatures are substantially higher than the city-wide average and therefore indicate potential urban heat island (UHI) effects. Although hotspots are dispersed throughout the municipality, they are not randomly distributed. Instead, they form clusters that suggest land cover characteristics play an important role in influencing local surface temperatures. Figure 3b illustrates the distribution of major land cover types across Kitchener, including tree canopy, grass and shrub vegetation, bare earth, water, buildings, roads, and other paved surfaces. Approximately 57% of the identified hotspots overlap areas characterized by a high proportion of buildings, roads, and other impervious surfaces. These materials have relatively low albedo and high heat storage capacity, allowing them to absorb solar radiation during the day and re-radiate heat over extended periods. As a result, these developed areas consistently exhibit higher surface temperatures than surrounding landscapes. 
 <img src="images/land_cover_hotspots.png?raw=true"/> 
 
 *Figure 3. Classification of hotspots (a) and distribution of major land cover types across the City of Kitchener (b) (Kitchener GeoHub).*
+
 Conversely, relatively few hotspots occur within areas dominated by tree canopy (11.5%) or grasslands (26%). Vegetated areas provide shade and promote evaporative cooling through evapotranspiration, while water bodies possess a higher heat capacity that moderates surface temperatures. The Grand River corridor and larger park systems are particularly evident as cooler zones throughout the study area.
 Overall, the comparison suggests that land cover is a major factor influencing the spatial distribution of surface temperatures within Kitchener and identifies several developed areas where increased tree planting or other green infrastructure initiatives could help reduce urban heat island intensity.
 
