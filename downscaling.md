@@ -42,9 +42,9 @@ These metrics quantified the degree to which statistical downscaling improved lo
 The calibrated regression model was applied to an independent dataset covering 2011–2018 to evaluate predictive performance outside the calibration period. Downscaled predictions were compared directly with observed station temperatures to assess model generalization.
 
 ### Sample Code 
+
 ```r
 Extract ERA5 Temperature
-
 data_variable <- ncvar_get(
   nc_era,
   "t2m",
@@ -56,7 +56,6 @@ tempc <- data_variable - 273.15
 
 
 Leave-One Out Regression
-
 for (ii in 1:length(OBSm)) {
   io <- 1:30
   exwin <- (ii - tau):(ii + tau)
@@ -72,7 +71,6 @@ for (ii in 1:length(OBSm)) {
 
 
 Model Evaluation
-
 rmse_mod12 <- rmse(OBSm, PREDm)
 rmse_ref12 <- rmse(OBSm, REAm)
 
