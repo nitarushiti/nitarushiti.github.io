@@ -43,6 +43,7 @@ The calibrated regression model was applied to an independent dataset covering 2
 
 ### Sample Code 
 Extract ERA5 Temperature
+
 ```data_variable <- ncvar_get(
   nc_era,
   "t2m",
@@ -56,15 +57,10 @@ tempc <- data_variable - 273.15
 Leave-One Out Regression
 
 ```for (ii in 1:length(OBSm)) {
-
   io <- 1:30
-
   exwin <- (ii - tau):(ii + tau)
-
   cut <- intersect(exwin, io)
-
   io <- io[-cut]
-
   alpha12[ii,] <- coef(
     lm(OBSm[io] ~ REAm[io])
   )
@@ -75,6 +71,7 @@ Leave-One Out Regression
 ```
 
 Model Evaluation
+
 ```rmse_mod12 <- rmse(OBSm, PREDm)
 rmse_ref12 <- rmse(OBSm, REAm)
 
@@ -127,8 +124,8 @@ This project demonstrates the complete workflow required to build and evaluate a
 <div class="gallery">
 
 <div class="gallery-item">
-<a href="images/Mar_temps2011-17.jpeg">
-<img src="images/Mar_temps2011-17.jpeg">
+<a href="images/mar_temps2011-17.jpeg">
+<img src="images/mar_temps2011-17.jpeg">
 </a>
 <p><strong>Figure 5.</strong> March</p>
 </div>
