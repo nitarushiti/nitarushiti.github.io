@@ -5,11 +5,11 @@
 ### Category Name 1 
 
 [Urban Heat Island Analysis of Kitchener, Ontario](/sample_page)
-<img src="images/land_cover_hotspots.jpg?raw=true"/>
+<img src="images/land_cover_hotspots.png?raw=true"/>
 
 ---
 [Cyclistic Bike Share Case Study](/sample_page)
-<img src="images/land_cover_hotspots.jpg?raw=true"/>
+<img src="images/land_cover_hotspots.png?raw=true"/>
 
 [Project 2 Title](/pdf/sample_presentation.pdf)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
