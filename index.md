@@ -39,13 +39,17 @@
 </div>
 
 <div class="project-card">
-  <img src="images/demo.gif" alt="Fitness Dashboard">
-  <h3>Fitness Dashboard</h3>
-  <p>Built a continuously updating Google Sheets dashboard to track workout progress, strength trends, competition scores, and personal records.</p>
+  <img src="June_temps2011-17.jpeg" alt="Statistical Downscaling">
+  <h3>Statistical Climate Downscaling of Seasonal Air Temperature in Greenwood, Nova Scotia </h3>
+  <p>Developed a statistical downscaling model in R to improve local air temperature estimates for Greenwood, Nova Scotia using ERA5 reanalysis data and weather station observations. The model was calibrated and validated using historical climate records and evaluated through statistical performance metrics.</p>
   <p>
-    <span class="badge">Google Sheets</span>
-    <span class="badge">Dashboards</span>
-    <span class="badge">Automation</span>
+    <span class="badge">R</span>
+    <span class="badge">Climate Data</span>
+    <span class="badge">NetCDF</span>
+    <span class="badge">ERA5</span>
+    <span class="badge">Statistical Downscaling</span>
+    <span class="badge">Linear Regression</span>
+    <span class="badge">Model Validation</span>
     <span class="badge">Data Visualization</span>
   </p>
 </div>
