@@ -1,6 +1,4 @@
-# Nita Rushiti
-
-Environmental Science graduate with experience in GIS, remote sensing, spatial analysis, and data analytics. I enjoy using data to solve environmental and planning problems through mapping, visualization, and thoughtful analysis.
+# Portfolio
 
 ## Technical Skills
 
