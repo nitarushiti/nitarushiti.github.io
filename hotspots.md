@@ -1,9 +1,9 @@
 ## Urban Heat Island Analysis of Kitchener, Ontario
 
-### **Project Overview:** Urban heat islands occur when built-up areas absorb and retain more heat than surrounding natural environments, resulting in elevated surface temperatures. These temperature differences can contribute to increased energy consumption, reduced outdoor comfort, and greater heat-related health risks. This project maps urban heat island patterns across Kitchener, Ontario, using satellite-derived land surface temperature and municipal land cover data to identify areas that may benefit from increased vegetation and other cooling strategies.
+### Project Overview
+Urban heat islands occur when built-up areas absorb and retain more heat than surrounding natural environments, resulting in elevated surface temperatures. These temperature differences can contribute to increased energy consumption, reduced outdoor comfort, and greater heat-related health risks. This project maps urban heat island patterns across Kitchener, Ontario, using satellite-derived land surface temperature and municipal land cover data to identify areas that may benefit from increased vegetation and other cooling strategies.
 
 ### Objectives
-
 - Map land surface temperature across Kitchener. 
 - Identify urban heat hotspot locations. 
 - Compare hotspot distribution with tree canopy and impervious surfaces. 
