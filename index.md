@@ -1,25 +1,53 @@
-## Portfolio
+# Nita Rushiti
 
----
+Environmental Science graduate with experience in GIS, remote sensing, spatial analysis, and data analytics. I enjoy using data to solve environmental and planning problems through mapping, visualization, and thoughtful analysis.
 
-### Projects 
+## Technical Skills
 
-[Urban Heat Island Analysis of Kitchener, Ontario](/hotspots)
-<img src="images/land_cover_hotspots.png?raw=true"/>
+<span class="badge">ArcGIS Pro</span>
+<span class="badge">Remote Sensing</span>
+<span class="badge">Spatial Analysis</span>
+<span class="badge">Python</span>
+<span class="badge">R</span>
+<span class="badge">SQL</span>
+<span class="badge">Excel</span>
+<span class="badge">Google Sheets</span>
 
----
-[Cyclistic Bike Share Case Study](/cyclistic_casestudy)
-<img src="images/p2_weeklyrides.png?raw=true"/>
+## Featured Projects
 
-[Project 2 Title](/pdf/sample_presentation.pdf)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+<div class="project-card">
+  <img src="images/Surface_temp.png" alt="Urban Heat Island Analysis">
+  <h3>Urban Heat Island Analysis — Kitchener, Ontario</h3>
+  <p>Mapped land surface temperature and urban heat hotspots using Landsat imagery and ArcGIS Pro. The project compares hotspots with land cover to identify areas where impervious surfaces and low tree canopy contribute to elevated surface temperatures.</p>
+  <p>
+    <span class="badge">ArcGIS Pro</span>
+    <span class="badge">Landsat</span>
+    <span class="badge">Raster Analysis</span>
+    <span class="badge">Cartography</span>
+  </p>
+  <p><a href="hotspots.html">View project →</a></p>
+</div>
 
----
-[Project 3 Title](http://example.com/)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+<div class="project-card">
+  <img src="images/p2_weeklyrides.png" alt="Cyclistic Bike Share Analysis">
+  <h3>Cyclistic Bike Share Analysis</h3>
+  <p>Analyzed bike-share usage patterns to compare casual riders and annual members, using data cleaning, visualization, and business-focused recommendations.</p>
+  <p>
+    <span class="badge">Data Analysis</span>
+    <span class="badge">Spreadsheets</span>
+    <span class="badge">Visualization</span>
+  </p>
+  <p><a href="cyclistic_casestudy.html">View project →</a></p>
+</div>
 
-
-
----
-<p style="font-size:11px">Page template forked from <a href="https://github.com/evanca/quick-portfolio">evanca</a></p>
-<!-- Remove above link if you don't want to attibute -->
+<div class="project-card">
+  <img src="images/demo.gif" alt="Fitness Dashboard">
+  <h3>Fitness Dashboard</h3>
+  <p>Built a continuously updating Google Sheets dashboard to track workout progress, strength trends, competition scores, and personal records.</p>
+  <p>
+    <span class="badge">Google Sheets</span>
+    <span class="badge">Dashboards</span>
+    <span class="badge">Automation</span>
+    <span class="badge">Data Visualization</span>
+  </p>
+</div>
