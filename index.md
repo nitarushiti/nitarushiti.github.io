@@ -31,9 +31,13 @@
   <h3>Cyclistic Bike Share Analysis</h3>
   <p>Analyzed bike-share usage patterns to compare casual riders and annual members, using data cleaning, visualization, and business-focused recommendations.</p>
   <p>
-    <span class="badge">Data Analysis</span>
-    <span class="badge">Python</span>
-    <span class="badge">Spreadsheets</span>
+    <span class="badge">R</span>
+    <span class="badge">Climate Data</span>
+    <span class="badge">NetCDF</span>
+    <span class="badge">ERA5</span>
+    <span class="badge">Statistical Downscaling</span>
+    <span class="badge">Linear Regression</span>
+    <span class="badge">Model Validation</span>
     <span class="badge">Data Visualization</span>
   </p>
   <p><a href="cyclistic_casestudy.html">View project →</a></p>
