@@ -64,3 +64,30 @@ h1, h2, h3 {
   font-size: 13px;
   margin: 4px 4px 4px 0;
 }
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.gallery-item {
+    text-align: center;
+}
+
+.gallery-item img {
+    width: 100%;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0,0,0,.15);
+    transition: 0.25s;
+}
+
+.gallery-item img:hover {
+    transform: scale(1.03);
+}
+
+.gallery-item p {
+    margin-top: 10px;
+    font-size: 15px;
+}
