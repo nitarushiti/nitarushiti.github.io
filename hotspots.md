@@ -28,25 +28,35 @@ Kitchener is the largest city in the Region of Waterloo, located in southwestern
 ### Methodology
 
 1. Data Acquisition
-   Landsat 8 Collection 2 Level-2 Surface Temperature (ST_B10) imagery acquired on July 7, 2025 was downloaded from the USGS EarthExplorer platform. An image with minimal cloud cover was selected to reduce the influence of atmospheric interference on surface temperature measurements. Municipal boundary and land cover datasets for the City of Kitchener were obtained from the Kitchener GeoHub Portal.
+
+Landsat 8 Collection 2 Level-2 Surface Temperature (ST_B10) imagery acquired on July 7, 2025 was downloaded from the USGS EarthExplorer platform. An image with minimal cloud cover was selected to reduce the influence of atmospheric interference on surface temperature measurements. Municipal boundary and land cover datasets for the City of Kitchener were obtained from the Kitchener GeoHub Portal.
 3. Land Surface Temperature Processing
-   The surface temperature raster was converted from scaled Kelvin values to degrees Celsius using the Raster Calculator tool in ArcGIS Pro with the following equation:
+
+The surface temperature raster was converted from scaled Kelvin values to degrees Celsius using the Raster Calculator tool in ArcGIS Pro with the following equation:
 ("ST_B10"×0.00341802+149.0)-273.15
 5. Study Area Extraction
-   The Clip Raster tool was used to clip the land surface temperature raster to the Kitchener municipal boundary, ensuring that all subsequent analyses were limited to the study area. 
+
+The Clip Raster tool was used to clip the land surface temperature raster to the Kitchener municipal boundary, ensuring that all subsequent analyses were limited to the study area. 
 7. Temperature Visualization
-   The clipped temperature raster was symbolized using a blue-to-red colour ramp to represent cooler and warmer surface temperatures across the city. 
+
+The clipped temperature raster was symbolized using a blue-to-red colour ramp to represent cooler and warmer surface temperatures across the city. 
 9. Hotspot Classification
-    Surface temperatures were classified into three categories using the Raster Calculator:
-   	Normal: Below the city-wide mean temperature
-   	Hot: Greater than the mean temperature plus one standard deviation
-    Very Hot: Greater than 48°C 
+
+Surface temperatures were classified into three categories using the Raster Calculator:
+
+- Normal: Below the city-wide mean temperature
+- Hot: Greater than the mean temperature plus one standard deviation
+- Very Hot: Greater than 48°C
+  
 11. Hotspot Polygon Creation
-    The classified hotspot raster was converted to polygon features using the Raster to Polygon tool, allowing hotspot areas to be visualized and compared with other vector datasets. 
+
+The classified hotspot raster was converted to polygon features using the Raster to Polygon tool, allowing hotspot areas to be visualized and compared with other vector datasets. 
 13. Land Cover Comparison
-    The hotspot polygons were compared with the City of Kitchener land cover dataset to visually assess the relationship between elevated surface temperatures and different land cover types. 
+
+The hotspot polygons were compared with the City of Kitchener land cover dataset to visually assess the relationship between elevated surface temperatures and different land cover types. 
 15. Map Production
-    Final cartographic layouts were produced in ArcGIS Pro, including maps of land surface temperature, identified hotspots, and land cover, with legends, scale bars, north arrows, and locator maps to support interpretation.
+
+Final cartographic layouts were produced in ArcGIS Pro, including maps of land surface temperature, identified hotspots, and land cover, with legends, scale bars, north arrows, and locator maps to support interpretation.
  
 ### Results and Discussion 
 *Table 2. Average temperature for each land cover class in Kitchener and percentage of area located in a hotspot zone.*
