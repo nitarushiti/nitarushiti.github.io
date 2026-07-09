@@ -11,7 +11,7 @@ Urban heat islands occur when built-up areas absorb and retain more heat than su
 
 ### Study Area
 Kitchener is the largest city in the Region of Waterloo, located in southwestern Ontario, Canada. The city has a population of approximately 257,000 residents (2021 Census) and has experienced significant urban growth driven by residential, commercial, and industrial development. Despite this expansion, Kitchener maintains an extensive network of parks, natural areas, and trails that are anchored by the Grand River, which flows through the eastern portion of the city and forms the backbone of its natural heritage system. The city's landscape consists of a mixture of densely developed urban neighbourhoods, transportation corridors, industrial lands, agricultural areas, and protected green spaces. Kitchener experiences a humid continental climate, characterized by warm, humid summers and cold winters.
-<img src="images/Studyarea.jpg?raw=true"/>
+<img src="images/p1_studyarea.png?raw=true"/>
 
 *Figure 1. Map of study area*
 
