@@ -12,8 +12,22 @@ header img {
 }
 
 body {
-  font-family: "Segoe UI", Arial, sans-serif;
-  color: #222;
+    position: relative;
+    background: white;
+}
+
+body::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+
+    background-image: url("/images/background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    opacity: 0.08;      /* 8% opacity */
+    z-index: -1;
 }
 
 h1, h2, h3 {
