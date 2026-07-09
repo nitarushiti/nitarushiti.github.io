@@ -52,4 +52,6 @@
     <span class="badge">Model Validation</span>
     <span class="badge">Data Visualization</span>
   </p>
+  <p><a href="downscaling.html">View project →</a></p>
+</div>
 </div>
