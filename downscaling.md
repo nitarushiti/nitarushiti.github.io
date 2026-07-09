@@ -49,8 +49,24 @@ These metrics quantified improvements achieved through statistical downscaling o
 The calibrated model was applied to an independent dataset spanning 2011–2017 to evaluate predictive performance outside the training period. Downscaled temperatures were compared directly with observed station temperatures to assess the model's ability to generalize to unseen data.
 
 ### Sample Code 
+Extract ERA5 Temperature
+```data_variable <- ncvar_get(
+  nc_era,
+  "t2m",
+  start = c(min(lon_indices), min(lat_indices), 1),
+  count = c(length(lon_indices), length(lat_indices), -1)
+)
 
+tempc <- data_variable - 273.15
+```
+data_variable <- ncvar_get(
+  nc_era,
+  "t2m",
+  start = c(min(lon_indices), min(lat_indices), 1),
+  count = c(length(lon_indices), length(lat_indices), -1)
+)
 
+tempc <- data_variable - 273.15
 Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. 
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
