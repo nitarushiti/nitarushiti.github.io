@@ -1,1 +1,52 @@
+---
+---
 
+@import "{{ site.theme }}";
+
+header img {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 4px 14px rgba(0,0,0,0.18);
+}
+
+body {
+  font-family: "Segoe UI", Arial, sans-serif;
+  color: #222;
+}
+
+h1, h2, h3 {
+  color: #1f2933;
+}
+
+.project-card {
+  border: 1px solid #ddd;
+  border-radius: 14px;
+  padding: 18px;
+  margin: 20px 0;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  background: white;
+}
+
+.project-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+.project-card img {
+  width: 100%;
+  border-radius: 12px;
+  margin-bottom: 12px;
+}
+
+.badge {
+  display: inline-block;
+  background: #e8f1f2;
+  color: #1f2933;
+  padding: 5px 10px;
+  border-radius: 999px;
+  font-size: 13px;
+  margin: 4px 4px 4px 0;
+}
