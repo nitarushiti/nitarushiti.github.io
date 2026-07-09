@@ -39,7 +39,7 @@
 </div>
 
 <div class="project-card">
-  <img src="June_temps81-10.jpeg" alt="Statistical Downscaling">
+  <img src="images/June_temps81-10.jpeg" alt="Statistical Downscaling">
   <h3>Statistical Climate Downscaling of Seasonal Air Temperature in Greenwood, Nova Scotia </h3>
   <p>Developed a statistical downscaling model in R to improve local air temperature estimates for Greenwood, Nova Scotia using ERA5 reanalysis data and weather station observations. The model was calibrated and validated using historical climate records and evaluated through statistical performance metrics.</p>
   <p>
@@ -53,5 +53,4 @@
     <span class="badge">Data Visualization</span>
   </p>
   <p><a href="downscaling.html">View project →</a></p>
-</div>
 </div>
