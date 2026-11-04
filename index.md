@@ -3,11 +3,12 @@
 ## Technical Skills
 
 <span class="badge">ArcGIS Pro</span>
+<span class="badge">QGIS</span>
 <span class="badge">Remote Sensing</span>
 <span class="badge">Spatial Analysis</span>
 <span class="badge">Python</span>
 <span class="badge">R</span>
-<span class="badge">SQL</span>
+<span class="badge">SQLite</span>
 <span class="badge">Excel</span>
 <span class="badge">Google Sheets</span>
 
