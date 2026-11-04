@@ -19,7 +19,25 @@ The cleaned total phosphorus dataset was imported into a SQLite database togethe
 
 Station-level results were imported into QGIS using latitude and longitude coordinates. Monitoring locations were mapped and symbolized according to average detected total phosphorus concentration. Of the 449 monitoring sites with detected total phosphorus measurements, 443 were successfully matched to coordinate records and included in the spatial analysis. Sites without matching coordinates were retained in the statistical analysis but excluded from the map. A continuous interpolated phosphorus surface was not created because PWQMN stations represent discrete stream-monitoring locations rather than a regular spatial sampling grid. Interpolation could therefore imply phosphorus conditions between stations that were not directly supported by the available data.
 
- 
+### 5. Sample Code
+Example SQL query used to join monitoring results with station coordinates and create the station-level dataset used for spatial analysis in QGIS.
+```sql
+CREATE TABLE phosphorus_by_station AS
+SELECT
+    m."Collection Site",
+    s.LATITUDE,
+    s.LONGITUDE,
+    COUNT(*) AS detected_samples,
+    AVG(m."Result Numeric") AS avg_total_phosphorus
+FROM measurements AS m
+JOIN stations AS s
+    ON m."Collection Site" = s."Collection Site"
+WHERE m."Result Call" = 'Detected'
+GROUP BY
+    m."Collection Site",
+    s.LATITUDE,
+    s.LONGITUDE
+ORDER BY avg_total_phosphorus DESC;
 ### Results and Discussion 
 
 ### 1. Overall Phosphorus Distribution
