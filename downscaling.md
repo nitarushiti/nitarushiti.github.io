@@ -161,4 +161,3 @@ https://cds.climate.copernicus.eu/datasets/reanalysis-era5-single-levels?tab=dow
 Environment and Climate Change Canada. (2025). Historical Climate Data: Greenwood, Nova Scotia weather station. Government of Canada. Downloaded from:
 https://climate.weather.gc.ca/historical_data/search_historic_data_e.html
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
