@@ -96,4 +96,3 @@ This analysis covers only 2025, so it cannot determine whether the observed stat
 ### References
 Provincial (Stream) Water Quality Monitoring Network https://data.ontario.ca/en/dataset/provincial-stream-water-quality-monitoring-network 
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
