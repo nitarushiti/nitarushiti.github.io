@@ -74,4 +74,3 @@ Ride volume remained high for members throughout the work week before dropping o
 ### Conclusion
 The analysis revealed clear behavioural differences between casual riders and members. Members use Cyclistic as part of their daily transportation routines, while casual riders are more likely to use the service for longer recreational trips. By focusing marketing efforts on frequent casual riders and emphasizing the value of membership, Cyclistic can increase membership adoption and improve long-term customer retention.
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
