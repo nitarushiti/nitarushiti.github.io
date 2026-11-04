@@ -13,6 +13,17 @@
 <span class="badge">Google Sheets</span>
 
 ## Featured Projects
+<div class="project-card">
+  <img src="images/Average Detected Total P at PWQMN Monitoring Stations, Southern ON, 2025.png" alt="Urban Heat Island Analysis">
+  <h3>Ontario PWQMN Total Phosphorus Analysis, 2025</h3>
+  <p>This project analyzes 2025 total phosphorus measurements from Ontario’s Provincial Water Quality Monitoring Network (PWQMN).</p>
+  <p>
+    <span class="badge">QGIS</span>
+    <span class="badge">SQLite</span>
+    <span class="badge">Python</span>
+  </p>
+  <p><a href="hotspots.html">View project →</a></p>
+</div>
 
 <div class="project-card">
   <img src="images/Surface_temp.png" alt="Urban Heat Island Analysis">
@@ -24,7 +35,7 @@
     <span class="badge">Raster Analysis</span>
     <span class="badge">Cartography</span>
   </p>
-  <p><a href="hotspots.html">View project →</a></p>
+  <p><a href="phosphorus2025.html">View project →</a></p>
 </div>
 
 <div class="project-card">
