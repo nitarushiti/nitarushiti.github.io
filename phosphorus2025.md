@@ -38,6 +38,7 @@ GROUP BY
     s.LATITUDE,
     s.LONGITUDE
 ORDER BY avg_total_phosphorus DESC;
+```
 ### Results and Discussion 
 
 ### 1. Overall Phosphorus Distribution
@@ -56,6 +57,7 @@ ORDER BY avg_total_phosphorus DESC;
 
 <img src="images/phosphorus_distribution.png?raw=true"/>
 *Figure 1. Distribution of total phosphorus measurements across Ontario, 2025.*
+
 The large difference between the mean and median shows that a relatively small number of high measurements substantially increase the arithmetic mean. Half of all detected measurements were at or below 14.2 µg/L, while 95% were below 149 µg/L. In comparison, the maximum observed concentration was 10,300 µg/L. Several of the highest measurements were also observed repeatedly at the same monitoring locations rather than occurring as a single isolated value. For example, Bearbrook Station recorded values of 10,300 µg/L and 9,710 µg/L on separate sampling dates. Other stations also contained multiple measurements above 1,000 µg/L. These observations were retained because the earlier data-quality review did not provide a basis for treating them as erroneous. Because concentrations span several orders of magnitude, a logarithmic scale provides a more useful representation of the distribution than a conventional linear histogram.     
 
 
