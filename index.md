@@ -22,7 +22,7 @@
     <span class="badge">SQLite</span>
     <span class="badge">Python</span>
   </p>
-  <p><a href="hotspots.html">View project →</a></p>
+  <p><a href="phosphorus2025.html">View project →</a></p>
 </div>
 
 <div class="project-card">
@@ -35,7 +35,7 @@
     <span class="badge">Raster Analysis</span>
     <span class="badge">Cartography</span>
   </p>
-  <p><a href="phosphorus2025.html">View project →</a></p>
+  <p><a href="hotspots.html">View project →</a></p>
 </div>
 
 <div class="project-card">
