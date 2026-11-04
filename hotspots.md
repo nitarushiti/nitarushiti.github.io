@@ -99,4 +99,3 @@ Kitchener GeoHub, 2026, Regional Municipal Boundary, accessed June 25, 2026 at h
 Kitchener GeoHub, 2026, Wards, accessed June 28, 2026 at https://open-kitchenergis.opendata.arcgis.com/datasets/aaa70fb878304de4ba244f12c5447016_0/explore?location=43.430262%2C-80.475658%2C12
 Kitchener GeoHub, updated 2025, Land Cover 2019 Kitchener, accessed June 25, 2026 at https://open-kitchenergis.opendata.arcgis.com/documents/d408f24a5ae848f2bdaea569044f42a0/explore
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
